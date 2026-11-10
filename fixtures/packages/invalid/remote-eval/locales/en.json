@@ -1,0 +1,8 @@
+{
+  "schema_version": "0.1.0",
+  "locale": "en",
+  "strings": {
+    "sport.name": "Smoke Sport",
+    "variant.demo": "Demo Variant"
+  }
+}

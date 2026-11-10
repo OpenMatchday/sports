@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.json",
+  "title": "Open Matchday sports package common types v0",
+  "description": "Shared primitives for sport package declarative data. No business logic.",
+  "$defs": {
+    "SchemaVersion": {
+      "type": "string",
+      "const": "0.1.0",
+      "description": "SemVer for this sports schema set. MAJOR bumps break package compatibility (REPOS.md)."
+    },
+    "SemVer": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-[0-9A-Za-z.-]+)?(?:\\+[0-9A-Za-z.-]+)?$",
+      "description": "Semantic Versioning 2.0.0 (https://semver.org/)"
+    },
+    "PackageId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[a-z][a-z0-9_]*$",
+      "description": "Stable sport package id (snake_case)."
+    },
+    "VariantId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64,
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "NonEmptyString": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 512
+    },
+    "IsoDate": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO-8601 calendar date (YYYY-MM-DD)"
+    },
+    "UriHttps": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "HTTPS URL only"
+    },
+    "RelativePath": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z0-9._/-]+$",
+      "description": "Repo-relative path using forward slashes; no .. segments"
+    },
+    "LocaleTag": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 16,
+      "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
+      "description": "BCP 47 language tag subset (en or en-US style)"
+    },
+    "Citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "retrieved_on"],
+      "properties": {
+        "title": { "$ref": "#/$defs/NonEmptyString" },
+        "url": { "$ref": "#/$defs/UriHttps" },
+        "retrieved_on": { "$ref": "#/$defs/IsoDate" },
+        "version_label": { "$ref": "#/$defs/NonEmptyString" }
+      }
+    }
+  }
+}

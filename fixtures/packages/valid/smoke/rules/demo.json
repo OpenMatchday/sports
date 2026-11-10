@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "demo",
+  "clock": {
+    "mode": "countdown",
+    "period_duration_ms": 600000,
+    "shot_clock_ms": null
+  },
+  "scoring": {
+    "unit": "points",
+    "allowed_point_values": [1]
+  },
+  "periods": {
+    "count": 2,
+    "label": "half",
+    "overtime_allowed": false
+  },
+  "invariants": [
+    {
+      "id": "score_non_negative",
+      "description": "Scores never decrease except via compensating undo."
+    }
+  ]
+}

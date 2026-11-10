@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "positions": [
+    {
+      "id": "player",
+      "display_name": "Player",
+      "markers": ["none"]
+    }
+  ],
+  "limits": {
+    "on_field_min": 1,
+    "on_field_max": 5,
+    "bench_max": 5
+  }
+}

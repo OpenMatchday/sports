@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0",
+  "fields": [
+    {
+      "id": "home_score",
+      "display_name": "Home",
+      "value_type": "integer"
+    },
+    {
+      "id": "away_score",
+      "display_name": "Away",
+      "value_type": "integer"
+    },
+    {
+      "id": "clock",
+      "display_name": "Clock",
+      "value_type": "clock_ms"
+    }
+  ]
+}

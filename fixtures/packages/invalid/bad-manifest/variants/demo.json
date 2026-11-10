@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "id": "demo",
+  "display_name": "Demo Variant",
+  "jurisdiction": "FICTION",
+  "effective_date": "2026-01-01",
+  "official_source": {
+    "title": "Open Matchday smoke fixture (not an official rulebook)",
+    "url": "https://github.com/OpenMatchday/sports",
+    "retrieved_on": "2026-11-10",
+    "version_label": "fixture-0.0.1"
+  },
+  "fiction": true,
+  "notes": "Placeholder citation for schema layout tests (AC-6.1)."
+}

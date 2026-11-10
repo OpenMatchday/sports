@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "variant.json",
+  "title": "Sport package variant",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "display_name",
+    "jurisdiction",
+    "effective_date",
+    "official_source",
+    "fiction"
+  ],
+  "properties": {
+    "schema_version": { "$ref": "common.json#/$defs/SchemaVersion" },
+    "id": { "$ref": "common.json#/$defs/VariantId" },
+    "display_name": { "$ref": "common.json#/$defs/NonEmptyString" },
+    "jurisdiction": { "$ref": "common.json#/$defs/NonEmptyString" },
+    "effective_date": { "$ref": "common.json#/$defs/IsoDate" },
+    "official_source": { "$ref": "common.json#/$defs/Citation" },
+    "fiction": {
+      "type": "boolean",
+      "description": "Must be true when official_source is a placeholder citation for fixtures"
+    },
+    "notes": { "$ref": "common.json#/$defs/NonEmptyString" }
+  }
+}

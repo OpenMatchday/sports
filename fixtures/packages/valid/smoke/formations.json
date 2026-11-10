@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1.0",
+  "formations": [
+    {
+      "id": "flat",
+      "display_name": "Flat",
+      "slots": [
+        {
+          "position_id": "player",
+          "x": 0.5,
+          "y": 0.5
+        }
+      ]
+    }
+  ]
+}

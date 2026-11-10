@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1.0",
+  "id": "smoke",
+  "display_name": "Smoke Sport",
+  "version": "0.0.1",
+  "fiction": true,
+  "summary": "Schema validation fixture only. Not a playable sport.",
+  "variants": ["demo"],
+  "default_locale": "en",
+  "exceptional_modules": []
+}

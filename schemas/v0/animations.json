@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "animations.json",
+  "title": "Sport package animations (declarative)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "clips"],
+  "properties": {
+    "schema_version": { "$ref": "common.json#/$defs/SchemaVersion" },
+    "clips": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind", "duration_ms", "reduced_motion"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": ["entry", "exit", "score", "period", "other"]
+          },
+          "duration_ms": { "type": "integer", "minimum": 0 },
+          "reduced_motion": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["duration_ms", "mode"],
+            "properties": {
+              "duration_ms": { "type": "integer", "minimum": 0 },
+              "mode": {
+                "type": "string",
+                "enum": ["cut", "fade", "none"]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

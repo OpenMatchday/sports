@@ -1,0 +1,10 @@
+{
+  "schema_version": "9.9.9",
+  "id": "bad_manifest",
+  "display_name": "Bad Manifest",
+  "version": "0.0.1",
+  "fiction": true,
+  "variants": ["demo"],
+  "default_locale": "en",
+  "exceptional_modules": []
+}

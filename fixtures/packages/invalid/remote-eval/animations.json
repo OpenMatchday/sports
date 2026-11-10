@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1.0",
+  "clips": [
+    {
+      "id": "lineup_in",
+      "kind": "entry",
+      "duration_ms": 400,
+      "reduced_motion": {
+        "duration_ms": 0,
+        "mode": "cut"
+      }
+    }
+  ]
+}

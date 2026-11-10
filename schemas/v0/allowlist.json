@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "allowlist.json",
+  "title": "Exceptional modules static allowlist",
+  "description": "Reviewed executable modules permitted under AC-6.2. Empty by default; no remote eval.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "modules"],
+  "properties": {
+    "schema_version": { "$ref": "common.json#/$defs/SchemaVersion" },
+    "modules": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "purpose", "reviewed_on"],
+        "properties": {
+          "path": {
+            "$ref": "common.json#/$defs/RelativePath",
+            "description": "Path relative to sports repo root (packages/.../modules/...)"
+          },
+          "purpose": { "$ref": "common.json#/$defs/NonEmptyString" },
+          "reviewed_on": { "$ref": "common.json#/$defs/IsoDate" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "locale.json",
+  "title": "Sport package locale strings",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "locale", "strings"],
+  "properties": {
+    "schema_version": { "$ref": "common.json#/$defs/SchemaVersion" },
+    "locale": { "$ref": "common.json#/$defs/LocaleTag" },
+    "strings": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1024
+      }
+    }
+  }
+}

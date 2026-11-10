@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.1.0",
+  "dialect": "https://json-schema.org/draft/2020-12/schema",
+  "schemas": [
+    "common.json",
+    "manifest.json",
+    "variant.json",
+    "rules.json",
+    "roster.json",
+    "field.json",
+    "formations.json",
+    "animations.json",
+    "scoreboards.json",
+    "assets.json",
+    "locale.json",
+    "allowlist.json"
+  ],
+  "package_file_schemas": {
+    "manifest.json": "manifest.json",
+    "roster.json": "roster.json",
+    "field.json": "field.json",
+    "formations.json": "formations.json",
+    "animations.json": "animations.json",
+    "scoreboards.json": "scoreboards.json",
+    "assets/manifest.json": "assets.json"
+  },
+  "directory_schemas": {
+    "variants": "variant.json",
+    "rules": "rules.json",
+    "locales": "locale.json"
+  },
+  "required_layout": [
+    "manifest.json",
+    "variants/",
+    "rules/",
+    "roster.json",
+    "field.json",
+    "formations.json",
+    "animations.json",
+    "scoreboards.json",
+    "assets/manifest.json",
+    "locales/",
+    "docs/",
+    "fixtures/",
+    "tests/"
+  ],
+  "sources": {
+    "json_schema": "https://json-schema.org/draft/2020-12/schema",
+    "semver": "https://semver.org/",
+    "ac": "PROJECT_SPEC AC-6.1 AC-6.2"
+  }
+}

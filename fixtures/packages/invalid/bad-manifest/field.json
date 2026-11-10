@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1.0",
+  "surface": "court",
+  "units": "m",
+  "width": 10,
+  "length": 20,
+  "markings": [
+    {
+      "id": "boundary",
+      "kind": "boundary",
+      "geometry": {
+        "type": "polygon",
+        "points": [
+          [0, 0],
+          [20, 0],
+          [20, 10],
+          [0, 10]
+        ]
+      }
+    }
+  ]
+}

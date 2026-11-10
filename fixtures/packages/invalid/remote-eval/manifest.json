@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1.0",
+  "id": "remote_eval",
+  "display_name": "Remote Eval Trap",
+  "version": "0.0.1",
+  "fiction": true,
+  "summary": "Invalid fixture that embeds eval in tests.",
+  "variants": ["demo"],
+  "default_locale": "en",
+  "exceptional_modules": []
+}

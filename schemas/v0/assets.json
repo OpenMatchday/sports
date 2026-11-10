@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "assets.json",
+  "title": "Sport package asset index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "assets"],
+  "properties": {
+    "schema_version": { "$ref": "common.json#/$defs/SchemaVersion" },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "path", "media_type", "license"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "path": { "$ref": "common.json#/$defs/RelativePath" },
+          "media_type": { "$ref": "common.json#/$defs/NonEmptyString" },
+          "license": { "$ref": "common.json#/$defs/NonEmptyString" },
+          "fiction": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

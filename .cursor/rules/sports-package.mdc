@@ -1,0 +1,14 @@
+---
+description: Conventions for Open Matchday sport packages (AC-6.1, AC-6.2)
+globs: packages/**/*.{json,mjs,js,md},fixtures/packages/**/*.{json,mjs,js,md},schemas/**/*.json
+alwaysApply: false
+---
+
+# Sport package conventions
+
+- Keep declarative data in JSON validated by `schemas/v0`. Do not put business logic in schemas.
+- Required layout: manifest, variants, rules, roster, field, formations, animations, scoreboards, assets/manifest, locales, docs, fixtures, tests.
+- Variants must cite `official_source` (title, https URL, retrieved_on, optional version_label), jurisdiction, and effective_date.
+- Fiction fixtures and schema smokes set `"fiction": true`. Never invent real teams, players, or rule text.
+- Exceptional executable modules require an entry in `exceptional-modules.allowlist.json` and in `manifest.exceptional_modules`. No remote eval (`eval`, `Function`, URL imports, `vm.run*`).
+- Run `npm run check`, `npm run validate`, and `npm test` before claiming a package ready.
