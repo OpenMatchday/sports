@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.1.0",
+  "locale": "en",
+  "strings": {
+    "sport.name": "Basketball",
+    "variant.fiba": "FIBA",
+    "variant.nba": "NBA",
+    "variant.ncaa": "NCAA Men's",
+    "variant.youth": "Youth (Mini-Basketball)",
+    "period.quarter": "Quarter",
+    "period.period": "Period",
+    "period.half": "Half",
+    "scoreboard.home": "Home",
+    "scoreboard.away": "Away",
+    "scoreboard.shot_clock": "Shot Clock"
+  }
+}

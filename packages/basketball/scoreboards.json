@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1.0",
+  "fields": [
+    {
+      "id": "home_score",
+      "display_name": "Home",
+      "value_type": "integer"
+    },
+    {
+      "id": "away_score",
+      "display_name": "Away",
+      "value_type": "integer"
+    },
+    {
+      "id": "period",
+      "display_name": "Period",
+      "value_type": "integer"
+    },
+    {
+      "id": "game_clock",
+      "display_name": "Game Clock",
+      "value_type": "clock_ms"
+    },
+    {
+      "id": "shot_clock",
+      "display_name": "Shot Clock",
+      "value_type": "clock_ms",
+      "optional_for_variants": ["youth"]
+    },
+    {
+      "id": "home_fouls",
+      "display_name": "Home Fouls",
+      "value_type": "integer"
+    },
+    {
+      "id": "away_fouls",
+      "display_name": "Away Fouls",
+      "value_type": "integer"
+    }
+  ]
+}

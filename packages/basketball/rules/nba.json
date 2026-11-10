@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "nba",
+  "clock": {
+    "mode": "countdown",
+    "period_duration_ms": 720000,
+    "shot_clock_ms": 24000
+  },
+  "scoring": {
+    "unit": "points",
+    "allowed_point_values": [1, 2, 3]
+  },
+  "periods": {
+    "count": 4,
+    "label": "period",
+    "overtime_allowed": true
+  },
+  "invariants": [
+    {
+      "id": "nba_five_on_court",
+      "description": "NBA Rule 3, Section I: each team shall consist of five players on the court."
+    },
+    {
+      "id": "nba_score_values",
+      "description": "NBA Rule 5, Section I: free throw 1 point; inside/on three-point line 2 points; outside three-point line 3 points."
+    },
+    {
+      "id": "nba_period_12",
+      "description": "NBA Rule 5, Section II: all periods of regulation play are twelve minutes; overtime periods five minutes."
+    }
+  ]
+}

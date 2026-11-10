@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "id": "nba",
+  "display_name": "NBA",
+  "jurisdiction": "National Basketball Association (United States / Canada)",
+  "effective_date": "2025-10-01",
+  "official_source": {
+    "title": "Official NBA Playing Rules 2025-26",
+    "url": "https://cdn.nba.com/manage/2026/01/Official-2025-26-NBA-Playing-Rules.pdf",
+    "retrieved_on": "2026-11-10",
+    "version_label": "2025-26 Official Rules"
+  },
+  "fiction": false,
+  "notes": "Court length 94 feet inside (court diagram); 4 x 12 min periods (Rule 5, Section II); 24-second shot clock (Rule 7); scoring 1/2/3 (Rule 5, Section I); five players on court (Rule 3, Section I). Package field geometry remains FIBA metric; see docs/SOURCES.md."
+}

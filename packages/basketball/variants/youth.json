@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "id": "youth",
+  "display_name": "Youth (FIBA Mini-Basketball)",
+  "jurisdiction": "FIBA-WABC Mini-Basketball (youth / mini)",
+  "effective_date": "2016-01-01",
+  "official_source": {
+    "title": "FIBA-WABC Mini-Basketball Coaches Manual (English)",
+    "url": "https://assets.fiba.basketball/image/upload/documents-corporate-mini-basketball-mini-basketball-coaches-manual-eng.pdf",
+    "retrieved_on": "2026-11-10",
+    "version_label": "FIBA-WABC Mini-Basketball coaches manual; (c) 2016 FIBA-WABC"
+  },
+  "fiction": false,
+  "notes": "Modified competition rules (section 5.2): shot clock should not be introduced until U14; quarters referenced for substitutions; 5v5 full-court format allowed alongside 3x3/4x4; scoring modifications optional. Period length is competition-local; declarative rules use FIBA Art. 8.1 10-minute quarters as parent baseline when a mini competition elects standard quarter structure. Index: https://about.fiba.basketball/en/services/resource-hub/downloads"
+}

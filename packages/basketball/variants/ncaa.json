@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "id": "ncaa",
+  "display_name": "NCAA Men's",
+  "jurisdiction": "NCAA Men's Basketball (United States)",
+  "effective_date": "2025-08-01",
+  "official_source": {
+    "title": "NCAA Men's Basketball Playing Rules (2025-26 Rules Book)",
+    "url": "https://www.ncaa.org/championships/playing-rules/mens-basketball-playing-rules/",
+    "retrieved_on": "2026-11-10",
+    "version_label": "2025-26 Men's Basketball Rules Book (August 2025)"
+  },
+  "fiction": false,
+  "notes": "Court 94 ft sidelines x 50 ft end lines (Rule 1); two halves of 20 minutes (Rule 5); 30-second shot clock (timer duties / Rule 5 shot-clock provisions); scoring 1/2/3 (Rule 5); five players to start (Rule 3). Values verified against the 2025-26 Men's Basketball Rules Book PDF text; landing page is ncaa.org playing-rules."
+}

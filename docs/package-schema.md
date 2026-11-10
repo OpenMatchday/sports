@@ -42,4 +42,4 @@ npm run validate
 npm test
 ```
 
-Basketball and futsal content packages are out of scope for OM-020 (see OM-021, OM-022).
+Basketball content package: `packages/basketball/` (OM-021). Futsal: OM-022.

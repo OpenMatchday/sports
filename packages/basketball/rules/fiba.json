@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "fiba",
+  "clock": {
+    "mode": "countdown",
+    "period_duration_ms": 600000,
+    "shot_clock_ms": 24000
+  },
+  "scoring": {
+    "unit": "points",
+    "allowed_point_values": [1, 2, 3]
+  },
+  "periods": {
+    "count": 4,
+    "label": "quarter",
+    "overtime_allowed": true
+  },
+  "invariants": [
+    {
+      "id": "fiba_five_on_court",
+      "description": "FIBA Art. 4.2.2: during playing time 5 team members from each team shall be on the court."
+    },
+    {
+      "id": "fiba_score_values",
+      "description": "FIBA Art. 16: free throw 1 point; 2-point area 2 points; 3-point area 3 points."
+    },
+    {
+      "id": "fiba_shot_clock_24",
+      "description": "FIBA Art. 29: team must attempt a shot for a goal within 24 seconds."
+    }
+  ]
+}

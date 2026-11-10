@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "ncaa",
+  "clock": {
+    "mode": "countdown",
+    "period_duration_ms": 1200000,
+    "shot_clock_ms": 30000
+  },
+  "scoring": {
+    "unit": "points",
+    "allowed_point_values": [1, 2, 3]
+  },
+  "periods": {
+    "count": 2,
+    "label": "half",
+    "overtime_allowed": true
+  },
+  "invariants": [
+    {
+      "id": "ncaa_five_on_court",
+      "description": "NCAA Rule 3: at the start of the game each team shall consist of five players."
+    },
+    {
+      "id": "ncaa_score_values",
+      "description": "NCAA Rule 5: free throw 1 point; field goal other than beyond three-point line 2 points; beyond three-point line 3 points."
+    },
+    {
+      "id": "ncaa_halves_20",
+      "description": "NCAA Rule 5: varsity playing time is two halves of 20 minutes; extra periods five minutes; shot clock 30 seconds."
+    }
+  ]
+}

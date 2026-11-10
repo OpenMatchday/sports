@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "id": "fiba",
+  "display_name": "FIBA",
+  "jurisdiction": "FIBA international",
+  "effective_date": "2026-10-01",
+  "official_source": {
+    "title": "FIBA Official Basketball Rules 2026 (v1.1)",
+    "url": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-v1-1.pdf",
+    "retrieved_on": "2026-11-10",
+    "version_label": "2026 v1.1; valid as of 1 October 2026"
+  },
+  "fiction": false,
+  "notes": "Court 28 m x 15 m (Art. 2); 4 x 10 min quarters (Art. 8.1); 24-second shot clock (Art. 29); scoring 1/2/3 (Art. 16); max 12 team members entitled to play (Art. 4); 5 on court (Art. 4.2.2). Index: https://about.fiba.basketball/en/services/resource-hub/downloads"
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "youth",
+  "clock": {
+    "mode": "countdown",
+    "period_duration_ms": 600000,
+    "shot_clock_ms": null
+  },
+  "scoring": {
+    "unit": "points",
+    "allowed_point_values": [1, 2, 3]
+  },
+  "periods": {
+    "count": 4,
+    "label": "quarter",
+    "overtime_allowed": false
+  },
+  "invariants": [
+    {
+      "id": "youth_no_shot_clock_before_u14",
+      "description": "FIBA-WABC Mini-Basketball coaches manual 5.2: the shot clock should not be introduced until the U14 age group."
+    },
+    {
+      "id": "youth_quarters_referenced",
+      "description": "FIBA-WABC Mini-Basketball coaches manual 5.2 references quarters for substitutions and scoring modifications."
+    },
+    {
+      "id": "youth_period_baseline",
+      "description": "Mini-Basketball manual does not mandate a single fixed quarter length; period_duration_ms uses FIBA Official Basketball Rules Art. 8.1 (10 minutes) as parent baseline when a competition elects standard quarter structure. Confirm local competition timing before air."
+    }
+  ]
+}

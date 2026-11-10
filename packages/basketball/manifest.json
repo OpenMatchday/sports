@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1.0",
+  "id": "basketball",
+  "display_name": "Basketball",
+  "version": "0.1.0",
+  "fiction": false,
+  "summary": "Basketball sport package with FIBA, NBA, NCAA, and youth (Mini-Basketball) variants citing official rule publications.",
+  "variants": ["fiba", "nba", "ncaa", "youth"],
+  "default_locale": "en",
+  "exceptional_modules": []
+}

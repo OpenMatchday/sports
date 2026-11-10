@@ -15,7 +15,9 @@ npm run validate
 npm test
 ```
 
-Shipped sport content packages live under `packages/` (basketball and futsal land in later tasks). Schema fixtures live under `fixtures/packages/`.
+Shipped sport content packages live under `packages/` (basketball: OM-021; futsal: OM-022). Schema fixtures live under `fixtures/packages/`.
+
+Basketball variants: `fiba`, `nba`, `ncaa`, `youth`. Citations: `packages/basketball/docs/SOURCES.md`.
 
 Exceptional executable modules require the static allowlist `exceptional-modules.allowlist.json`. Remote eval is rejected.
 

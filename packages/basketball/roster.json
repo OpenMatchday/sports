@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1.0",
+  "positions": [
+    {
+      "id": "point_guard",
+      "display_name": "Point Guard",
+      "markers": ["none"]
+    },
+    {
+      "id": "shooting_guard",
+      "display_name": "Shooting Guard",
+      "markers": ["none"]
+    },
+    {
+      "id": "small_forward",
+      "display_name": "Small Forward",
+      "markers": ["none"]
+    },
+    {
+      "id": "power_forward",
+      "display_name": "Power Forward",
+      "markers": ["none"]
+    },
+    {
+      "id": "center",
+      "display_name": "Center",
+      "markers": ["none"]
+    }
+  ],
+  "limits": {
+    "on_field_min": 5,
+    "on_field_max": 5,
+    "bench_max": 7
+  }
+}
