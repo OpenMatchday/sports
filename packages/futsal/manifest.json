@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1.0",
+  "id": "futsal",
+  "display_name": "Futsal",
+  "version": "0.1.0",
+  "fiction": false,
+  "summary": "Futsal sport package with FIFA Laws and youth variants citing official FIFA Futsal Laws of the Game.",
+  "variants": ["fifa", "youth"],
+  "default_locale": "en",
+  "exceptional_modules": []
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1.0",
+  "fields": [
+    {
+      "id": "home_score",
+      "display_name": "Home",
+      "value_type": "integer"
+    },
+    {
+      "id": "away_score",
+      "display_name": "Away",
+      "value_type": "integer"
+    },
+    {
+      "id": "period",
+      "display_name": "Half",
+      "value_type": "integer"
+    },
+    {
+      "id": "game_clock",
+      "display_name": "Game Clock",
+      "value_type": "clock_ms"
+    },
+    {
+      "id": "home_accumulated_fouls",
+      "display_name": "Home Accumulated Fouls",
+      "value_type": "integer"
+    },
+    {
+      "id": "away_accumulated_fouls",
+      "display_name": "Away Accumulated Fouls",
+      "value_type": "integer"
+    },
+    {
+      "id": "home_timeouts_remaining",
+      "display_name": "Home Timeouts",
+      "value_type": "integer"
+    },
+    {
+      "id": "away_timeouts_remaining",
+      "display_name": "Away Timeouts",
+      "value_type": "integer"
+    }
+  ]
+}

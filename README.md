@@ -19,6 +19,8 @@ Shipped sport content packages live under `packages/` (basketball: OM-021; futsa
 
 Basketball variants: `fiba`, `nba`, `ncaa`, `youth`. Citations: `packages/basketball/docs/SOURCES.md`.
 
+Futsal variants: `fifa`, `youth`. Citations: `packages/futsal/docs/SOURCES.md`.
+
 Exceptional executable modules require the static allowlist `exceptional-modules.allowlist.json`. Remote eval is rejected.
 
 ## License

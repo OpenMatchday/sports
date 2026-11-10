@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "youth",
+  "clock": {
+    "mode": "countdown",
+    "period_duration_ms": 1200000,
+    "shot_clock_ms": null
+  },
+  "scoring": {
+    "unit": "goals",
+    "allowed_point_values": [1]
+  },
+  "periods": {
+    "count": 2,
+    "label": "half",
+    "overtime_allowed": true
+  },
+  "invariants": [
+    {
+      "id": "youth_modifiable_duration",
+      "description": "FIFA Futsal Laws 2025-26 Notes: for youth futsal, national FAs may modify the duration of the two equal periods of the game (and two equal periods of extra time). period_duration_ms uses Law 7.1 (20 minutes) as parent baseline when a competition elects unmodified duration."
+    },
+    {
+      "id": "youth_modifiable_pitch_goals_ball",
+      "description": "FIFA Futsal Laws 2025-26 Notes: for youth futsal, pitch size, ball size/weight/material, and goal dimensions (post width / crossbar height) may be modified by the responsible FA/confederation/FIFA."
+    },
+    {
+      "id": "youth_gk_throw_limit_optional",
+      "description": "FIFA Futsal Laws 2025-26 Notes and Law 12/16 references: where outlawed by domestic youth rules, the goalkeeper may not throw the ball directly over the halfway line."
+    },
+    {
+      "id": "youth_five_players_parent",
+      "description": "Parent FIFA Futsal Law 3.1 still applies unless FIFA grants other permission: maximum five players including goalkeeper; minimum three to start or resume."
+    }
+  ]
+}

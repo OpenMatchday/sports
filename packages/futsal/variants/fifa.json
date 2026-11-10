@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "id": "fifa",
+  "display_name": "FIFA Laws",
+  "jurisdiction": "FIFA international",
+  "effective_date": "2025-09-05",
+  "official_source": {
+    "title": "FIFA Futsal Laws of the Game 2025-26",
+    "url": "https://assets.the-afc.com/downloads/referees/Futsal---Laws-of-the-Game-2025-2026---Sep-12-update.pdf",
+    "retrieved_on": "2026-11-10",
+    "version_label": "2025-26; effective from 5 September 2025; approved by the Bureau of the Council"
+  },
+  "fiction": false,
+  "notes": "Law 1 international pitch length 38-42 m / width 20-25 m; goals 3 m x 2 m; Law 3 five players max (one goalkeeper), minimum three to start/resume, max nine substitutes in official competitions; Law 7 two equal periods of 20 minutes playing time; Law 10 goal scored = whole of ball over goal line; extra time two equal periods not exceeding five minutes each when competition rules require a winner. Index: https://www.fifa.com/en/futsal-laws-of-the-game"
+}

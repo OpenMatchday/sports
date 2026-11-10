@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1.0",
+  "id": "youth",
+  "display_name": "Youth (FIFA modifications)",
+  "jurisdiction": "FIFA youth / national FA modifications",
+  "effective_date": "2025-09-05",
+  "official_source": {
+    "title": "FIFA Futsal Laws of the Game 2025-26 (Notes: youth organisational modifications)",
+    "url": "https://assets.the-afc.com/downloads/referees/Futsal---Laws-of-the-Game-2025-2026---Sep-12-update.pdf",
+    "retrieved_on": "2026-11-10",
+    "version_label": "2025-26 Notes on the Futsal Laws; youth/veterans/disability/grassroots organisational modifications"
+  },
+  "fiction": false,
+  "notes": "FIFA Notes allow youth modifications: pitch; ball; goals; captain armband; duration of the two equal periods and extra-time periods; GK throw limits. Age bands set by FA/confederation/FIFA. No other changes without FIFA permission. rules/youth.json keeps Law 7 20-minute halves as parent baseline when duration is unmodified; confirm local timing before air."
+}

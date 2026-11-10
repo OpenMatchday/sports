@@ -7,7 +7,7 @@
   "scripts": {
     "check": "node scripts/check-schemas.mjs",
     "validate": "node scripts/validate-packages.mjs",
-    "test": "node --test test/schema.test.mjs test/packages.test.mjs test/basketball.test.mjs",
+    "test": "node --test test/schema.test.mjs test/packages.test.mjs test/basketball.test.mjs test/futsal.test.mjs",
     "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "engines": {

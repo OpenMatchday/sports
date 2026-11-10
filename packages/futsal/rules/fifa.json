@@ -1,0 +1,40 @@
+{
+  "schema_version": "0.1.0",
+  "variant_id": "fifa",
+  "clock": {
+    "mode": "countdown",
+    "period_duration_ms": 1200000,
+    "shot_clock_ms": null
+  },
+  "scoring": {
+    "unit": "goals",
+    "allowed_point_values": [1]
+  },
+  "periods": {
+    "count": 2,
+    "label": "half",
+    "overtime_allowed": true
+  },
+  "invariants": [
+    {
+      "id": "fifa_five_players",
+      "description": "FIFA Futsal Law 3.1: a match is played by two teams, each with a maximum of five players, one of whom must be the goalkeeper; may not start or resume with fewer than three players."
+    },
+    {
+      "id": "fifa_two_halves_20",
+      "description": "FIFA Futsal Law 7.1: the match lasts for two equal periods of 20 minutes of playing time, which may only be reduced if permitted by competition rules."
+    },
+    {
+      "id": "fifa_goal_value",
+      "description": "FIFA Futsal Law 10.1/10.2: a goal is scored when the whole of the ball passes over the goal line between the goalposts and under the crossbar; the team scoring the greater number of goals is the winner."
+    },
+    {
+      "id": "fifa_extra_time_cap",
+      "description": "FIFA Futsal Law 10.2: when competition rules require a winner after a draw, permitted procedures include two equal periods of extra time not exceeding five minutes each."
+    },
+    {
+      "id": "fifa_accumulated_fouls_sixth",
+      "description": "FIFA Futsal Law 13.5: beginning with the sixth accumulated foul by each team in each period, a direct free kick (DFKSAF) applies."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.1.0",
+  "locale": "en",
+  "strings": {
+    "sport.name": "Futsal",
+    "variant.fifa": "FIFA Laws",
+    "variant.youth": "Youth (FIFA modifications)",
+    "period.half": "Half",
+    "scoreboard.home": "Home",
+    "scoreboard.away": "Away",
+    "scoreboard.accumulated_fouls": "Accumulated Fouls",
+    "scoreboard.timeouts": "Timeouts"
+  }
+}
