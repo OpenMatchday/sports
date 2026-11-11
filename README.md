@@ -12,8 +12,11 @@ Declarative package layout and JSON Schema 2020-12 validation. See [docs/package
 npm ci
 npm run check
 npm run validate
+npm run catalog
 npm test
 ```
+
+`npm run catalog` writes `dist/website-catalog.v0.json` (available packages + `catalog/planned.json` for AC-6.5).
 
 Shipped sport content packages live under `packages/` (basketball: OM-021; futsal: OM-022). Schema fixtures live under `fixtures/packages/`.
 
